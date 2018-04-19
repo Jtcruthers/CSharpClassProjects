@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFBattle", "WPFBattle\WPFBattle.csproj", "{048EBA5C-1F78-4EC9-B9DF-84573CF46AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{048EBA5C-1F78-4EC9-B9DF-84573CF46AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048EBA5C-1F78-4EC9-B9DF-84573CF46AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048EBA5C-1F78-4EC9-B9DF-84573CF46AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048EBA5C-1F78-4EC9-B9DF-84573CF46AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {018A8BF8-1047-4B29-8087-39494C95B036}
+	EndGlobalSection
+EndGlobal

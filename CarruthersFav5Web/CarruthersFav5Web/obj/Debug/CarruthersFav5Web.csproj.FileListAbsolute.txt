@@ -1,0 +1,15 @@
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\bin\Debug\CarruthersFav5Web.exe.config
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\bin\Debug\CarruthersFav5Web.exe
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\bin\Debug\CarruthersFav5Web.pdb
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.csprojResolveAssemblyReference.cache
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\MyBrowser.g.cs
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\App.g.cs
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web_MarkupCompile.cache
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web_MarkupCompile.lref
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\MyBrowser.baml
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.g.resources
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.Properties.Resources.resources
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.csproj.GenerateResource.Cache
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.csproj.CoreCompileInputs.cache
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.exe
+C:\Users\Justin\source\repos\CarruthersFav5Web\CarruthersFav5Web\obj\Debug\CarruthersFav5Web.pdb
