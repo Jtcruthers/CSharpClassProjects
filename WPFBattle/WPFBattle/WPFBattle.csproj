@@ -93,5 +93,29 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="content\background.png" />
+    <Resource Include="content\Flare_attack.png" />
+    <Resource Include="content\Flare_dead.png" />
+    <Resource Include="content\Flare_hurt.png" />
+    <Resource Include="content\Flare_idle.png" />
+    <Content Include="content\gavel.wav" />
+    <Resource Include="content\Riku_attack.png" />
+    <Resource Include="content\Riku_dead.png" />
+    <Resource Include="content\Riku_hurt.png" />
+    <Resource Include="content\Riku_idle.png" />
+    <Content Include="content\Spellcast.wav" />
+    <Content Include="content\sthswng1.WAV" />
+    <Content Include="content\Swoosh.wav" />
+    <Resource Include="content\Vexen_attack.png" />
+    <Resource Include="content\Vexen_dead.png" />
+    <Resource Include="content\Vexen_hurt.png" />
+    <Resource Include="content\Vexen_idle.png" />
+    <Resource Include="content\Xenmas_attack.png" />
+    <Resource Include="content\Xenmas_dead.png" />
+    <Resource Include="content\Xenmas_hurt.png" />
+    <Resource Include="content\Xenmas_idle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

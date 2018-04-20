@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Image HorizontalAlignment="Left" Height="318" VerticalAlignment="Top" Width="517" Source="content/background.png" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="119" Margin="307,178,0,0" VerticalAlignment="Top" Width="111" Source="content/Flare_idle.png"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="388,128,0,0" VerticalAlignment="Top" Width="63" Source="content/Xenmas_idle.png"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="307,0,0,0" VerticalAlignment="Top" Width="36" Source="content/Riku_idle.png"/>
+        <Image HorizontalAlignment="Left" Height="90" Margin="417,194,0,0" VerticalAlignment="Top" Width="90" Stretch="UniformToFill" Source="content/Vexen_idle.png"/>
+
     </Grid>
 </Window>
