@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Carruthers.RoleplayingGameInterfaces;
+using Carruthers.RPGCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,29 +22,34 @@ namespace WPFBattle
   /// </summary>
   public partial class MainWindow : Window
   {
+    private TextBoxStreamWriter consoleWriter;
+    private ICombat combat;
+    private CombatThread combatThread;
+
     public MainWindow()
     {
       InitializeComponent();
+      consoleWriter = new TextBoxStreamWriter(TextBox);
+      Console.SetOut(consoleWriter);
 
-      var x = new Testtt { Role = "Pion", Pay = 0 };
+      ICharacter mage = new MageHero(mageImage);
+      ICharacter warrior = new WarriorHero(warriorImage);
+      ICharacter archer = new ArcherHero(archerImage);
+      ICharacter computerWizard = new ComputerWizardHero(computerWizardImage);
 
-      Console.WriteLine(x.Role);
-      Console.ReadLine();
+      IList<ICharacter> friendlyParty = new List<ICharacter>();
+      IList<ICharacter> enemyParty = new List<ICharacter>();
+
+      friendlyParty.Add(warrior);
+      enemyParty.Add(mage);
+      enemyParty.Add(archer);
+      enemyParty.Add(computerWizard);
+
+      combat = new Combat(friendlyParty, enemyParty, "Good Guys", "Baddies");
+
+      combatThread = new CombatThread(combat);
+      combatThread.Start();
     }
   }
 
-  class Testtt
-  {
-    public string Role { get; set; }
-    public int Pay { get; set; }
-    public Testtt(string r, int p)
-    {
-      this.Role = r;
-      this.Pay = p;
-    }
-    public Testtt()
-    {
-
-    }
-  }
 }

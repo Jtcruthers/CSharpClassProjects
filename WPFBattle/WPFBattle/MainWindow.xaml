@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="318" VerticalAlignment="Top" Width="517" Source="content/background.png" Stretch="UniformToFill"/>
-        <Image HorizontalAlignment="Left" Height="119" Margin="307,178,0,0" VerticalAlignment="Top" Width="111" Source="content/Flare_idle.png"/>
-        <Image HorizontalAlignment="Left" Height="82" Margin="388,128,0,0" VerticalAlignment="Top" Width="63" Source="content/Xenmas_idle.png"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="307,0,0,0" VerticalAlignment="Top" Width="36" Source="content/Riku_idle.png"/>
-        <Image HorizontalAlignment="Left" Height="90" Margin="417,194,0,0" VerticalAlignment="Top" Width="90" Stretch="UniformToFill" Source="content/Vexen_idle.png"/>
+        <Image HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="397" Source="content/background.png" Stretch="UniformToFill" Margin="120,0,0,0"/>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="319" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SpellCheck.IsEnabled="True"/>
+        <local:CharacterImage x:Name="mageImage" HorizontalAlignment="Left" Height="64" Margin="362,82,0,0" VerticalAlignment="Top" Width="63" IdleImageSource="content/Flare_idle.png" DeadImageSource="content/Flare_dead.png" TakeDamageImageSource="content/Flare_hurt.png" AttackingImageSource="content/Flare_attack.png"/>
+        <local:CharacterImage x:Name="warriorImage" HorizontalAlignment="Left" Height="79" Margin="169,122,0,0" VerticalAlignment="Top" Width="63" AttackingImageSource="content/Riku_attack.png" DeadImageSource="content/Riku_dead.png" IdleImageSource="content/Riku_idle.png" TakeDamageImageSource="content/Riku_hurt.png"/>
+        <local:CharacterImage x:Name="computerWizardImage" HorizontalAlignment="Left" Height="82" Margin="430,119,0,0" VerticalAlignment="Top" Width="69" AttackingImageSource="content/Vexen_attack.png" DeadImageSource="content/Vexen_dead.png" IdleImageSource="content/Vexen_idle.png" TakeDamageImageSource="content/Vexen_hurt.png"/>
+        <local:CharacterImage x:Name="archerImage" HorizontalAlignment="Left" Height="76" Margin="370,180,0,0" VerticalAlignment="Top" Width="60" AttackingImageSource="content/Xenmas_idle.png" DeadImageSource="content/Xenmas_dead.png" IdleImageSource="content/Xenmas_idle.png" TakeDamageImageSource="content/Xenmas_hurt.png"/>
 
     </Grid>
 </Window>

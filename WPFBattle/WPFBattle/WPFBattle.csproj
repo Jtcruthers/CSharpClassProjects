@@ -54,6 +54,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Attacks\BadGradeAttack2.cs" />
+    <Compile Include="Attacks\BowAttack2.cs" />
+    <Compile Include="Attacks\FireAttack2.cs" />
+    <Compile Include="Attacks\SwordAttack2.cs" />
+    <Compile Include="CharacterImage.cs" />
+    <Compile Include="Characters\ArcherHero.cs" />
+    <Compile Include="Characters\ComputerWizardHero.cs" />
+    <Compile Include="Characters\MageHero.cs" />
+    <Compile Include="Characters\WarriorHero.cs" />
+    <Compile Include="TextBoxStreamWriter.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +72,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CombatThread.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -93,7 +104,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\RPGInterfaces\RPGInterfaces\RPGInterfaces.csproj">
+      <Project>{7c593057-56b8-4aeb-8ed8-c9eca9fcbfb9}</Project>
+      <Name>RPGInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="content\background.png" />
     <Resource Include="content\Flare_attack.png" />
@@ -117,5 +133,6 @@
     <Resource Include="content\Xenmas_hurt.png" />
     <Resource Include="content\Xenmas_idle.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
