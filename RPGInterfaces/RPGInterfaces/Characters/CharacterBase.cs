@@ -25,7 +25,7 @@ namespace Carruthers.RPGCore
       attackBehavior.Attack(this, target);
     }
 
-    public void ReceiveAttack(int damage)
+    public virtual void ReceiveAttack(int damage)
     {
       if (randomNumbers.Next(GameConstants.Instance.DodgeDifficulty) != 0)
       {
