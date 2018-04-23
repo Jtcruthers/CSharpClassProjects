@@ -12,7 +12,7 @@
         <local:CharacterImage x:Name="mageImage" HorizontalAlignment="Left" Height="64" Margin="362,82,0,0" VerticalAlignment="Top" Width="63" IdleImageSource="content/Flare_idle.png" DeadImageSource="content/Flare_dead.png" TakeDamageImageSource="content/Flare_hurt.png" AttackingImageSource="content/Flare_attack.png"/>
         <local:CharacterImage x:Name="warriorImage" HorizontalAlignment="Left" Height="79" Margin="169,122,0,0" VerticalAlignment="Top" Width="63" AttackingImageSource="content/Riku_attack.png" DeadImageSource="content/Riku_dead.png" IdleImageSource="content/Riku_idle.png" TakeDamageImageSource="content/Riku_hurt.png"/>
         <local:CharacterImage x:Name="computerWizardImage" HorizontalAlignment="Left" Height="82" Margin="430,119,0,0" VerticalAlignment="Top" Width="69" AttackingImageSource="content/Vexen_attack.png" DeadImageSource="content/Vexen_dead.png" IdleImageSource="content/Vexen_idle.png" TakeDamageImageSource="content/Vexen_hurt.png"/>
-        <local:CharacterImage x:Name="archerImage" HorizontalAlignment="Left" Height="76" Margin="370,180,0,0" VerticalAlignment="Top" Width="60" AttackingImageSource="content/Xenmas_idle.png" DeadImageSource="content/Xenmas_dead.png" IdleImageSource="content/Xenmas_idle.png" TakeDamageImageSource="content/Xenmas_hurt.png"/>
+        <local:CharacterImage x:Name="archerImage" HorizontalAlignment="Left" Height="76" Margin="370,180,0,0" VerticalAlignment="Top" Width="60" AttackingImageSource="content/Xenmas_attack.png" DeadImageSource="content/Xenmas_dead.png" IdleImageSource="content/Xenmas_idle.png" TakeDamageImageSource="content/Xenmas_hurt.png"/>
 
     </Grid>
 </Window>
